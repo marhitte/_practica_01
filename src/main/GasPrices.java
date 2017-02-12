@@ -21,6 +21,10 @@ public class GasPrices {
          return this.price*0.04;
      }
      
+    //public void precioFin(){
+        
+    //}
+     
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         GasPrices pricePerBarrel= new GasPrices();
